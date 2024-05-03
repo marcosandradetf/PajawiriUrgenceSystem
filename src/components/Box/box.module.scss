@@ -1,0 +1,39 @@
+@import "../../app/globals.module.scss";
+
+.box {
+    height: calc(100vh - 90px);
+    position: relative;
+    margin-left: 365px;
+    width: 500px;
+    z-index: 1;
+    overflow: auto;
+    margin-top: 90px;
+
+    ul {
+        border-bottom: 1px solid $border-color;
+        border-right: 1px solid $border-color;
+        height: 150px;
+        background-color: $secondary-color;
+
+        &:hover {
+            background-color: $primary-color;
+        }
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid $border-color;
+        border-right: 1px solid $border-color;
+        height: 150px;
+        background-color: $active-color;
+        font-size: 24px;
+        vertical-align: middle;
+        font-family: $lato;
+
+        &:hover {
+            background-color: $primary-color;
+        }
+    }
+}

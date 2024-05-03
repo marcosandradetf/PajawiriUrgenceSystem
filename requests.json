@@ -1,0 +1,14 @@
+{
+    "solicitantes":[
+        {"id": "1" , "telefone":"31995998050", "nome": "Carlos Augusto", "cidade": "Belo Horizonte", "logradouro": "Av. Barão Homem de Melo, 125", "bairro": "Estoril", "pontoreferencia": "Px Upa Oeste"},
+        {"id": "2" , "telefone":"31991234567", "nome": "Maria da Silva", "cidade": "Belo Horizonte", "logradouro": "Rua dos Inconfidentes, 200", "bairro": "Funcionários", "pontoreferencia": "Próximo ao Mercado Central"},
+        {"id": "3" , "telefone":"31987654321", "nome": "João Pereira", "cidade": "Belo Horizonte", "logradouro": "Av. Amazonas, 500", "bairro": "Centro", "pontoreferencia": "Em frente à Praça Sete"},
+        {"id": "4" , "telefone":"31999887766", "nome": "Ana Souza", "cidade": "Belo Horizonte", "logradouro": "Rua da Bahia, 1000", "bairro": "Lourdes", "pontoreferencia": "Ao lado do Diamond Mall"},
+        {"id": "5" , "telefone":"31995554433", "nome": "Pedro Oliveira", "cidade": "Belo Horizonte", "logradouro": "Av. do Contorno, 1500", "bairro": "Funcionários", "pontoreferencia": "Próximo à Praça da Liberdade"},
+        {"id": "6" , "telefone":"31993337788", "nome": "Mariana Santos", "cidade": "Belo Horizonte", "logradouro": "Av. Raja Gabaglia, 2000", "bairro": "Luxemburgo", "pontoreferencia": "Ao lado do BH Shopping"},
+        {"id": "7" , "telefone":"31991112233", "nome": "José Carlos", "cidade": "Belo Horizonte", "logradouro": "Rua Pium-í, 300", "bairro": "Sion", "pontoreferencia": "Próximo ao Parque Municipal"},
+        {"id": "8" , "telefone":"31998888777", "nome": "Fernanda Costa", "cidade": "Belo Horizonte", "logradouro": "Av. do Contorno, 2500", "bairro": "Savassi", "pontoreferencia": "Ao lado do Pátio Savassi"},
+        {"id": "9" , "telefone":"31997776655", "nome": "Lucas Oliveira", "cidade": "Belo Horizonte", "logradouro": "Av. Afonso Pena, 3000", "bairro": "Centro", "pontoreferencia": "Próximo à Rodoviária"},
+        {"id": "10" , "telefone":"31996666555", "nome": "Aline Pereira", "cidade": "Belo Horizonte", "logradouro": "Av. Cristiano Machado, 4000", "bairro": "Sagrada Família", "pontoreferencia": "Em frente ao Minas Shopping"}
+    ]
+}

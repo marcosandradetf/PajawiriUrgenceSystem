@@ -1,0 +1,10 @@
+@import "../../app/globals.module.scss";
+
+.topbar_box {
+    position: fixed;
+    width: 100vw;
+    height: 90px;
+    background-color: $primary-color;
+    border-bottom: 1px solid $border-color;
+    top: 0;
+}
