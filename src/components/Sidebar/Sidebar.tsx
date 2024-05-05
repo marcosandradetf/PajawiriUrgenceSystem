@@ -1,3 +1,5 @@
+'use client';
+
 import style from "./sidebar.module.scss";
 import { RiGlobalLine } from "react-icons/ri";
 import { TfiWrite } from "react-icons/tfi";
@@ -9,20 +11,25 @@ import { IoSearch } from "react-icons/io5";
 import { PiSignOut } from "react-icons/pi";
 import Link from "next/link";
 
-export default function Sidebar() {
+interface SidebarProps {
+	currentPath: string;
+  }
+
+export default function Sidebar({ currentPath }: SidebarProps) {
+
+
 	return (
 		<nav className={style.box_side_bar}>
 			<ul>
-				<div>
-					<li className="pt-10">
+				<div className={currentPath === '/' ? style.active : ''}>
+					<li>
 						<Link href="/">Gerar chamado</Link>
 					</li>
-					<span className="pt-10">
+					<span>
 						<RiGlobalLine />
 					</span>
 				</div>
-				<div></div>
-				<div>
+				<div className={currentPath === '/applicants' ? style.active : ''}>
 					<li>
 						<Link href="/applicants">Atender chamado</Link>
 					</li>
@@ -63,7 +70,7 @@ export default function Sidebar() {
 			</ul>
 			<ul>
 				<div>
-					<li className="py-10">Sair</li>
+					<li>Sair</li>
 					<span>
 						<PiSignOut />
 					</span>

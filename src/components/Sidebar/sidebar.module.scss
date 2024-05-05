@@ -15,7 +15,8 @@
     border-right: 1px solid $border-color;
 
     // font
-    font-weight: 600;
+    font-family: $lato;
+    font-weight: 500;
     color: $font-primary-color;
     font-size: 18px;
     position: fixed;
@@ -23,26 +24,39 @@
     ul {
         list-style: none;
         padding: 0;
+        margin: 50px 0 50px 0;
+
 
         div {
+            display: flex;
+            width: 250px;
+            height: 50px;
             position: relative;
+            align-items: center;
+            &:hover {
+                background-color: #255f30;
+                color: $primary-color;
+                border-radius: 10px;
+                box-shadow: $shadow;
+            }
 
             li {
-                padding-left: 40px;
                 position: relative;
                 cursor: pointer;
-
-                &:hover {
-                    color: $active-color;
-                }
+                padding-left: 50px;
+                
             }
 
             span {
                 position: absolute;
-                left: 0;
+                left: 10px;
                 top: 50%;
                 transform: translateY(-50%);
             }
         }
     }
+}
+
+.active {
+    color: $active-color;
 }

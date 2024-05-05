@@ -1,9 +1,9 @@
 import Box from "@/components/Box/Box";
-import style from "./style.module.scss";
+import style from "./applicants.module.scss";
 
 export async function RequestApplicants() {
 	try {
-		const response = await fetch("http://localhost:3001/solicitantes");
+		const response = await fetch("http://localhost:3333/solicitantes");
 		const data = await response.json();
 		return (
 				<Box>
